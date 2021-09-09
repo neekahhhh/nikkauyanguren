@@ -14,7 +14,7 @@ section{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background: url("Comp.jpg");
+    background: url("images/Comp.jpg");
     background-size:cover;
     background-position: center;
 }
