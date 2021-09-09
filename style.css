@@ -7,14 +7,15 @@
     font-family: "Montserrat", sans-serif;
 }
 
-first{
+section{
  position: relative;
  width: 100%;
  min-height: 100vh;
  display: flex;
  flex-direction: column;
  justify-content: flex-start;
- background: url(Comp.jpg)no-repeat;
+ background: url("Comp.jpg")no-repeat;
  background-size:cover;
  background-position: center;
 }
+
