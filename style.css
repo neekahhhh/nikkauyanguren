@@ -84,9 +84,9 @@ header .navigation a:hover{
 }
 
 .main .info h2{
-    color: #c181d4;
+    color: #fff;
     font-size: 55px; 
-    text-transform: uppercase;
+    text-transform: none;
     font-weight: 800;
     letter-spacing: 2px;
     line-height: 60px;
@@ -94,7 +94,7 @@ header .navigation a:hover{
 }
 
 .main .info h2 span{
-    color: #fff;
+    color:#c181d4;
     font-size: 50px;
     font-weight: 600;
 }
