@@ -39,12 +39,15 @@ header .logo{
     letter-spacing: 1px;
 }
 
-header .fasfa-home{
+header .Home{
     position: relative;
     color: #000;
-    font-size: 30px;
+    text-align: left;
+    font-size: 20px;
+    height: fit-content;
+    max-width: 20px;
     text-decoration: none;
-    text-transform: uppercase;
+    text-transform: none;
     font-weight: 800;
     letter-spacing: 1px;
 }
@@ -54,6 +57,7 @@ header .nav-right a{
     background: #fff;
     text-decoration: none;
     font-weight: 500;
+    max-width: 20px;
     letter-spacing: 1px;
     padding: 2px 15px;
     border-radius: 20px;
@@ -61,8 +65,13 @@ header .nav-right a{
     transition-property: background;
 }
 
+header .nav-right a:hover{
+    background: rgb(224, 48, 121);
+}
+
+
 header .nav-right a:not(:last-child){
-    margin-right: 30px;
+    margin-inline: 30px;
 }
 
 header .navigation a:hover{
@@ -84,14 +93,23 @@ header .navigation a:hover{
     margin-bottom: 30px;
 }
 
-.content .info h2 span{
+.main .info h2 span{
     color: #fff;
     font-size: 50px;
     font-weight: 600;
 }
 
-.content .ingo p{
+.main .info p{
     font-size: 16px;
     font-weight: 500;
     margin-bottom: 40px;
+}
+
+.main .info img{
+    max-height: 300px;
+    max-width: 300px;
+    border: 5px solid #f158d8;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 5px;
 }
