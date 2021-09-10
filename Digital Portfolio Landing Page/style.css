@@ -14,7 +14,7 @@ section{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background: url("images/Comp.jpg")no-repeat;
+    background: url("ImageL/Comp.jpg")no-repeat;
     background-size:cover;
     background-position: center;
 }
@@ -27,12 +27,14 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: left;
+
 }
 
 header .Home{
     position: relative;
     color: #000;
-    text-align: left;
+    text-align: right;
     font-size: 20px;
     height: fit-content;
     max-width: 20px;
@@ -60,7 +62,6 @@ header .nav-right a:hover{
     background: rgb(224, 48, 121);
 }
 
-
 header .nav-right a:not(:last-child){
     margin-inline: 30px;
 }
@@ -75,7 +76,7 @@ header .navigation a:hover{
 }
 
 .main .info h2{
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-size: 55px; 
     text-transform: none;
     font-weight: 800;
@@ -86,7 +87,7 @@ header .navigation a:hover{
 
 .main .info h2 span{
     color:#c575db;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 600;
 }
 
@@ -101,6 +102,24 @@ header .navigation a:hover{
     max-width: 300px;
     border: 5px solid #f158d8;
     border-radius: 15px;
-    margin: 20px;
-    padding: 5px;
+    margin: 10px;
+    padding: 3px;
+}
+
+.main .info-btn{
+    color:#fff;
+    background:lightseagreen;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 750px;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+    transition-property: background;
+}
+
+.main .info-btn:hover{
+    background:rgb(69, 169, 231);
+
 }
