@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaccination Form</title>
+    <link rel="stylesheet" href="vaccination.css">
+</head>
+<body>
+   <main>
+       <div>
+       <section class="form">
+    <h1>Covid-19 Vaccination Form</h1>
+    <hr>
+    <br>
+    <section class="Name">
+        <div>
+        <label for="first name"><strong>First Name</strong></label> 
+        <input type="text" name="fist name" id="first name">
+    </div>
+    <br>
+    <div>
+        <label for="last name"><strong>Last Name</strong></label>
+        <input type="text" name="last name" id="last name">
+    </div>
+    <br>
+    </section>
+
+    <section class="Home Address">
+        <div>
+        <label for="address"><strong>Home Address</strong></label>
+        <input type="text" name="address" id="address">
+    </div>
+    <br>
+    </section>
+
+    <section class="Sex & Age">
+        <div>
+        <label for="sex"><strong>Sex</strong></label>
+        <input type="text" name="sex" id="sex">
+    </div>
+    <br>
+        <div>
+        <label for="age"><strong>Age</strong></label>
+        <input type="number" name="age" id="age">
+    </div>
+    <br>
+    </section>
+
+    <section class="Date of Birth">
+        <div>
+        <label for="birthdate"><strong>Date of Birth</strong></label>
+        <input type="date" name="birth" id="birth">
+    </div>
+    <br>
+    </section>
+    <hr>
+
+    <h3><strong>CONTACT INFO</strong></h3>
+    <br>
+
+    <section class="Cellphone No. & Telephone No.">
+        <div>
+        <label for="cellphone no."><strong>Cellphone No.</strong></label>
+        <input type="text" name="phone" id="phone">
+    </div>
+    <br>
+        <div>
+        <label for="telephone no."><strong>Telephone No.</strong></label>
+        <input type="text" name="telephone" id="telephone">
+    </div>
+    <br>
+    </section>
+
+    <section class="Email Address">
+        <div>
+        <label for="email add"><strong>Email Address</strong></label>
+        <input type="text" name="email add" id="email add">
+    </div>
+    <br>
+    </section>
+
+    <hr>
+    <h3><strong>MEDICAL HISTORY</strong></h3>
+    <br>
+
+    <section class="diagnosis">
+        <span><strong>Have you been diagnosed with Covid-19?</strong></span>
+        <br>
+        <input type="radio" name="covid" id="yes" value="yes">
+        <label for="yes">Yes</label>
+        <input type="radio" name="covid" id="no" value="no">
+        <label for="no">No</label>
+    </section>
+    <br>
+
+    <section class="symptoms">
+        <span><strong>Please check all symptoms that apply:</strong></span>
+        <br>
+        <input type="checkbox" name="symptoms" id="Loss of Taste/Smell" value="Loss of Taste/Smell">
+        <label for="Loss of Taste/Smell">Loss of Taste/Smell</label>
+        <input type="checkbox" name="symptoms" id="Difficulty Breathing" value="Difficulty Breathing">
+        <label for="Difficulty Breathing">Difficulty Breathing</label>
+        <input type="checkbox" name="symptoms" id="Cough" value="Cough">
+        <label for="Cough">Cough</label>
+        <input type="checkbox" name="symptoms" id="Runny Nose" value="Runny Nose">
+        <label for="Runny Nose">Runny Nose</label>
+        <input type="checkbox" name="symptoms" id="Body Aches" value="Body Aches">
+        <label for="Body Aches">Body Aches</label>
+        <input type="checkbox" name="symptoms" id="Sore Throat" value="Sore Throat">
+        <label for="Sore Throat">Sore Throat</label>
+    </section>
+    <br>
+
+    <section class="contact">
+        <span><strong>Have you been in contact with a Covid-19 patient?</strong></span>
+        <br>
+        <input type="radio" name="contact" id="yes" value="yes">
+        <label for="yes">Yes</label>
+        <input type="radio" name="contact" id="no" value="no">
+        <label for="no">No</label>
+    </section>
+    <br>
+
+    <hr>
+    <h3>ALLERGIES</h3>
+    <br>
+
+    <section class="allergies">
+        <label for="allergies"><strong>Please specify any allergies you have. If none, put N/A</strong></label>
+        <input type="text" name="allergies" id="allergies">
+    </section>
+    <br>
+    
+    <hr>
+    <h3><strong>TYPE OF VACCINE</strong></h3>
+    <br>
+
+    <section class="vaccine-type">
+        <label for="vaccine"><strong>Select Vaccine</strong></label>
+        <select name="vaccine" id="vaccine">
+            <option value="None">None</option>
+            <option value="Pfizer-BioNTech">Pfizer-BioNTech</option>
+            <option value="Oxford-AstraZeneca">Oxford-AstraZeneca</option>
+            <option value="CoronaVac">CoronaVac</option>
+            <option value="Gamaleya Sputnik V">Gamaleya Sputnik V</option>
+            <option value="Johnson and Johnson's Janssen">Johnson and Johnson's Janssen</option>
+            <option value="Bharat Bio Tech">Bharat Bio Tech</option>
+            <option value="Moderna">Moderna</option>
+            <option value="Sinopharm">Sinopharm</option>
+        </select>
+    </section>
+    <br>
+    <section class="submission">
+        <input type="submit" value="submit">
+    </section>
+</section>
+</main>
+</body>
+</html>

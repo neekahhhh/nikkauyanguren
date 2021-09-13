@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-image: url("Gallery.jpg");
+    background-size:cover;
+    background-position: center;
+}
+
+.buttons {
+    color: burlywood;
+    text-align: center;
+    padding: 20px;
+    justify-content: center;
+    height: 500px;
+    position: relative;
+}
+
+.buttons a{
+    padding: 5px 30px;
+    border: none;
+    outline: none;
+    color: rgb(255, 212, 85);
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 100px;
+    display: block;
+    margin: 0 auto;
+    transition: 0.2s all;
+    font-size: 100px;
+}
+
+.buttons a:hover {
+    transform: scale(1.08);
+    color: rgb(18, 214, 18);
+}
+
+.btn1 {
+    font-size: 40px;;
+    border-radius: 12px;
+    background-color:rgb(29, 197, 219);
+    border: 4px solid black;
+}
+
+.btn2 {
+    font-size: 40px;
+    border-radius: 12px;
+    background-color:rgb(29, 197, 219);
+    border: 4px solid black;
+}
+
+.btn3 {
+    font-size: 40px;
+    border-radius: 12px;
+    background-color:rgb(29, 197, 219);
+    border: 4px solid black;
+}
+
+.btn1:hover{
+    background-color:rgb(35, 72, 192);
+        cursor: pointer;
+}
+
+.btn2:hover{
+    background-color:rgb(35, 72, 192);
+        cursor: pointer;
+}
+
+.btn3:hover{
+    background-color:rgb(35, 72, 192);
+        cursor: pointer;
+}
