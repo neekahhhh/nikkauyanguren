@@ -14,7 +14,7 @@ section{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background: url("images/Comp.jpg")no-repeat;
+    background-color: rgb(255, 210, 232);
     background-size:cover;
     background-position: center;
 }
@@ -81,8 +81,12 @@ header .navigation a:hover{
 }
 
 .main{
-    max-width: 650px;
-    margin: 60px 100px;
+    max-width: auto;
+    margin: 10px 100px;
+    text-align: center;
+    background-color: rgb(185, 255, 232);
+    background-position: center;
+    border-radius: 20px;
 }
 
 .main .info h2{
@@ -108,15 +112,19 @@ header .navigation a:hover{
 }
 
 .main .info img{
+    padding: 5px;
     max-height: 300px;
     max-width: 300px;
     border: 5px solid #f158d8;
     border-radius: 15px;
     margin: 10px;
-    padding: 3px;
 }
 
-.main .info-btn{
+.MI {
+    text-align: center;
+}
+
+.MI .info-btn{
     color:#fff;
     background:lightseagreen;
     text-decoration: none;
@@ -129,7 +137,7 @@ header .navigation a:hover{
     transition-property: background;
 }
 
-.main .info-btn:hover{
+.MI .info-btn:hover{
     background:rgb(69, 169, 231);
 
 }
@@ -233,4 +241,68 @@ header .Home{
     .content .info p{
         font-size: 14px;
     }
+}
+
+table, th{
+    border: 1px solid black;
+    background-color: rgb(255, 71, 255);
+    text-align: center;
+    padding: 10px;
+    height: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+table, td {
+    border: 1px solid black;
+    background-color: rgb(239, 172, 252);
+    text-align: center;
+    padding: 5px;
+    height: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+.more h3 {
+    text-align: center;
+    background-color: rgb(255, 228, 140);
+}
+
+.forms {
+    text-align: center;
+}
+
+.forms label {
+    text-align: center;
+    font-size: medium;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.to-top {
+    background: #DBAE51;
+    position: fixed;
+    bottom: 16px;
+    right:32px;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:32px;
+    color:#1f1f1f;
+    text-decoration: none;
+    opacity:0;
+    pointer-events: none;
+    transition: all .4s;
+}
+.to-top.active {
+    bottom:32px;
+    pointer-events: auto;
+    opacity:1;
 }
